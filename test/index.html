@@ -42,10 +42,13 @@
     justify-content: space-between;
 }
 
+
+
     .vision-description{font-weight: 600;}
 .visions{
     display: flex;
     gap: 24px;
+    margin: 20px 160px;
     
    
 }
@@ -96,6 +99,9 @@
     padding: 32px; 
     border-radius: 16px; 
 }
+
+
+
 
 /*About Setalite-first part*/
 
@@ -176,7 +182,69 @@ border-radius: 24px;
     text-align: center;
 }
 
+.final-vision{margin-left: 160px;}
+.setalite-part{margin-left: 160px;}
 
+.donate-title{margin-top: 80px; font-size: 40px; font-weight: bold;}
+.donate-description{margin-top: 24px;}
+.about-donate{text-align: center;}
+
+.about-taka1{padding:40px;
+        background-color: hsl(0, 6%, 93%);
+        border-radius: 16px;
+        gap: 24px;
+
+        }
+
+        .about-taka2{padding:40px;
+        background-color: #C6E4D6;
+        border-radius: 16px;
+        }
+
+
+        .about-taka3{padding:40px;
+        background-color: hsl(0, 6%, 93%);
+        border-radius: 16px;
+        }
+
+
+        .about-taka4{padding:40px;
+        background-color: hsl(0, 6%, 93%);
+        border-radius: 16px;
+        }
+
+
+        .taka-part{
+            display: flex;
+            justify-content: space-around;
+            margin: 32px 265px;
+            font-size: 40px;
+            font-weight: bold;
+            gap: 24px;
+            padding: 40px;
+        }
+
+
+        .amount{padding: 20px 40px; background-color: hsl(0, 58%, 93%);
+            text-align: center; margin: 32px 284px;
+        }
+
+
+        .donate-btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: semi-bold;
+    padding: 17px 34px;
+    border: none;
+}
+    .donate-set{display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+      
+    }
     </style>
 </head>
 <body>
@@ -196,8 +264,10 @@ border-radius: 24px;
 
     <main>
         <section class="principle">
-        <h1 class="vision-title">The Vision of Future</h1>
-        <p class="vision-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in <br> renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
+            <div class="final-vision">
+        <h1>The Vision of Future</h1>
+        <p>Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in <br> renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
+    </div>
         <div class="visions">
             <div class="vision-one">
                 <img src="assets/card-icon.png" alt="">
@@ -224,7 +294,7 @@ border-radius: 24px;
 
 
     <section>
-        <div>
+        <div class="setalite-part">
         <h1 class="setalite-title">Recent News</h1>
         <p>Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in <br>
              renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
@@ -271,16 +341,45 @@ border-radius: 24px;
 
         <section>
             <div>
+            <div class="about-donate">
                 <h2 class="donate-title">Donate Today</h2>
-                <p>Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. <br> 
+                <p class="donate-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. <br> 
                     With initiatives in renewable energy, digital transformation, and robust infrastructure.</p>
+            <div>
             </div>
-
-
 
         </section>
 
 
+        <section>
+            <div class="taka-part">
+            <div class="about-taka1">
+            <h1>100 Taka</h1>
+            </div>
+
+            <div class="about-taka2">
+                <h1>200 Taka</h1>
+                </div>
+
+                <div class="about-taka3">
+                    <h1>500 Taka</h1>
+                    </div>
+
+                    <div class="about-taka4">
+                        <h1>1000 Taka</h1>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h4 class="amount">Other Amount (Taka)</h4>
+                                    
+                    </div>
+        </section>
+    <section>
+       <div class="donate-set">
+        <p ><button class="donate-btn">Read More</button></p>
+       </div>
+    </section>
+       
 
 
 

@@ -1,0 +1,274 @@
+/*first-part*/
+header {
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    padding: 117px 60px;
+    text-align: left;
+    margin: 20px 160px;
+    gap: 16px;
+}
+
+.title {
+    color: #0E0E0E font-size 24px;
+}
+
+.second-line {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #006A50;
+    font-weight: semi-bold;
+    border-radius: 5px;
+    color: white;
+    padding: 17px 34px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.first-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.vision-description {
+    font-weight: 600;
+}
+
+.visions {
+    display: flex;
+    gap: 24px;
+    margin: 20px 160px;
+
+
+}
+
+.vision-box1 {
+    background-color: #5490F5;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+    padding: 11px 20px;
+    font-size: 18px;
+    border: none;
+}
+
+.vision-box2 {
+    background-color: #09A15C;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+    padding: 11px 20px;
+    font-size: 18px;
+    border: none;
+}
+
+.vision-box3 {
+    background-color: #FFC239;
+    font-weight: 400;
+    border-radius: 16px;
+    color: white;
+    padding: 11px 20px;
+    font-size: 18px;
+    border: none;
+}
+
+
+
+.vision-one {
+    background-color: #87b1fa;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-two {
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.vision-three {
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+
+
+
+/*About Setalite-first part*/
+
+.setalite-pic {
+    border-radius: 24px;
+
+}
+
+.left-part {
+    padding: 48px;
+}
+
+.pic-title {
+    font-weight: bold;
+}
+
+.pic-part {
+
+    padding: 48px;
+}
+
+.second-part {
+
+    background-color: hsl(0, 6%, 93%);
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 48px;
+    margin: 32px 160px;
+    border-radius: 24px;
+
+}
+
+
+.btn-setalite {
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: semi-bold;
+    padding: 13px 26px;
+    border: none;
+}
+
+/*About Setalite-second part*/
+
+.third-part {
+    margin-top: 34px;
+    gap: 24px;
+}
+
+
+
+.second-pic {
+
+    padding: 48px;
+}
+
+.final-part {
+    padding: 48px;
+}
+
+.full-part {
+
+    display: flex;
+    background-color: hsl(0, 6%, 93%);
+    justify-content: center;
+    gap: 32px;
+    padding: 48px;
+    margin: 32px 160px;
+    border-radius: 24px;
+
+}
+
+.setalite-final {
+    border-radius: 24px;
+
+}
+
+/*Donate Section*/
+
+.donate-title {
+
+    text-align: center;
+}
+
+.final-vision {
+    margin-left: 160px;
+}
+
+.setalite-part {
+    margin-left: 160px;
+}
+
+.donate-title {
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.donate-description {
+    margin-top: 24px;
+}
+
+.about-donate {
+    text-align: center;
+}
+
+.about-taka1 {
+    padding: 40px;
+    background-color: hsl(0, 6%, 93%);
+    border-radius: 16px;
+    gap: 24px;
+
+}
+
+.about-taka2 {
+    padding: 40px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+
+
+.about-taka3 {
+    padding: 40px;
+    background-color: hsl(0, 6%, 93%);
+    border-radius: 16px;
+}
+
+
+.about-taka4 {
+    padding: 40px;
+    background-color: hsl(0, 6%, 93%);
+    border-radius: 16px;
+}
+
+
+.taka-part {
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 265px;
+    font-size: 40px;
+    font-weight: bold;
+    gap: 24px;
+    padding: 40px;
+}
+
+
+.amount {
+    padding: 20px 40px;
+    background-color: hsl(0, 58%, 93%);
+    text-align: center;
+    margin: 32px 284px;
+}
+
+
+.donate-btn {
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: semi-bold;
+    padding: 17px 34px;
+    border: none;
+}
+
+.donate-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+
+}
